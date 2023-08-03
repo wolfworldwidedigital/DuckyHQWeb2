@@ -1,36 +1,39 @@
 <template>
-	<div class="bg-black text-white">
-		<div class="flex flex-col gap-[32px] w-full">
-			<h1 class="font-hanson text-9xl">dukc</h1>
-			<div
-				class="flex flex-col gap-[32px] align-middle place-items-center w-full"
-			>
-				<div class="flex place-content-between h-fit w-full">
-					<p class="text-[20px]">UI designer</p>
-					<p class="text-[20px]">Front-end web developer</p>
-					<p class="text-[20px]">Content creator</p>
+	<div class="bg-black text-white h-full w-full flex gap-[64px]">
+		<div id="left" class="flex flex-col w-full h-full gap-[64px]">
+			<div class="flex flex-col gap-[32px] w-full h-full">
+				<h1 class="font-hanson text-[100px] leading-[50px]">dukc</h1>
+				<p class="text-[20px]">UI designer, & front-end web developer.</p>
+			</div>
+			<div class="flex gap-[32px] w-full h-full">
+				<div
+					class="w-fit h-full flex flex-col gap-[32px] px-[16px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
+				>
+					<nuxt-icon name="work" />
 				</div>
-				<div class="flex place-content-between h-fit w-[50vw]">
-					<nuxt-link
-						class="flex gap-[8px] align-middle place-items-center hover:scale-95 active:scale-50 duration-200"
-					>
-						<p class="text-[20px]">View work</p>
-						<nuxt-icon name="link" class="text-white" />
-					</nuxt-link>
-					<nuxt-link
-						class="flex gap-[8px] align-middle place-items-center hover:scale-95 active:scale-50 duration-200"
-					>
-						<p class="text-[20px]">About</p>
-						<nuxt-icon name="link" class="text-white" />
-					</nuxt-link>
-					<nuxt-link
-						class="flex gap-[8px] align-middle place-items-center hover:scale-95 active:scale-50 duration-200"
-					>
-						<p class="text-[20px]">Contact</p>
-						<nuxt-icon name="link" class="text-white" />
-					</nuxt-link>
+				<div
+					class="w-full h-full flex flex-col gap-[32px] p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
+				>
+					<p class="text-[20px]">hello world</p>
 				</div>
 			</div>
+		</div>
+		<div
+			id="right"
+			class="flex flex-col gap-[32px] w-fit h-full align-middle place-items-center"
+		>
+			<div class="flex flex-col gap-[16px]">
+				<a href="#" class="hover:scale-95 active:scale-50 duration-200">
+					<nuxt-img src="/icons/yt.png" />
+				</a>
+				<a href="#" class="hover:scale-95 active:scale-50 duration-200">
+					<nuxt-img src="/icons/behance.png" />
+				</a>
+				<a href="#" class="hover:scale-95 active:scale-50 duration-200">
+					<nuxt-img src="/icons/discord.png" />
+				</a>
+			</div>
+			<div class="w-[1px] h-full border border-white/10"></div>
 		</div>
 	</div>
 </template>
