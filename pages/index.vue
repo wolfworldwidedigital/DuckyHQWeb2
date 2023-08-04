@@ -1,39 +1,36 @@
 <template>
-	<div class="bg-black text-white h-full w-full flex gap-[64px]">
-		<div id="left" class="flex flex-col w-full h-full gap-[64px]">
-			<div class="flex flex-col gap-[32px] w-full h-full">
-				<h1 class="font-hanson text-[100px] leading-[50px]">dukc</h1>
-				<p class="text-[20px]">UI designer, & front-end web developer.</p>
-			</div>
-			<div class="flex gap-[32px] w-full h-full">
-				<div
-					class="w-fit h-full flex flex-col gap-[32px] px-[16px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
-				>
-					<nuxt-icon name="work" />
-				</div>
-				<div
-					class="w-full h-full flex flex-col gap-[32px] p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
-				>
-					<p class="text-[20px]">hello world</p>
-				</div>
-			</div>
-		</div>
+	<div class="flex gap-[32px] h-full">
+		<PagesNav selected="work" />
 		<div
-			id="right"
-			class="flex flex-col gap-[32px] w-fit h-full align-middle place-items-center"
+			class="w-full h-full grid grid-cols-2 max-[1000px]:grid-cols-1 overflow-y-scroll gap-[24px] p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
 		>
-			<div class="flex flex-col gap-[16px]">
-				<a href="#" class="hover:scale-95 active:scale-50 duration-200">
-					<nuxt-img src="/icons/yt.png" />
-				</a>
-				<a href="#" class="hover:scale-95 active:scale-50 duration-200">
-					<nuxt-img src="/icons/behance.png" />
-				</a>
-				<a href="#" class="hover:scale-95 active:scale-50 duration-200">
-					<nuxt-img src="/icons/discord.png" />
-				</a>
+			<div
+				class="bg-[linear-gradient(to_bottom,rgba(0,0,0,0),rgba(0,0,0,0.3)),url('/bg.jpg')] bg-cover hover:scale-[.98] cursor-pointer active:scale-75 transition-all duration-200 bg-no-repeat bg-clip-padding rounded-[10px] border border-white/10 w-full h-[400px] flex flex-col gap-[8px] p-[32px] align-bottom place-content-end group"
+			>
+				<h2
+					class="text-[30px] font-medium opacity-0 group-hover:opacity-100 duration-200 transition-all w-full"
+				>
+					A post!
+				</h2>
+				<p
+					class="text-[18px] opacity-0 group-hover:opacity-50 duration-200 transition-all w-full"
+				>
+					Design - Aug 3, 2023
+				</p>
 			</div>
-			<div class="w-[1px] h-full border border-white/10"></div>
 		</div>
 	</div>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+	title: "DuckyHQ : Work",
+	ogTitle: "DuckyHQ : Work",
+	description:
+		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
+	ogDescription:
+		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
+	ogImage: "/logobg.png",
+	twitterCard: "summary_large_image",
+});
+</script>

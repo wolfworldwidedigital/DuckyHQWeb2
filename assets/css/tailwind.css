@@ -7,16 +7,17 @@
     src: url("/fonts/Hanson.otf");
 }
 
+html {
+	background-color: black;
+	overflow-x: hidden;
+}
+
 .selected {
 	color: #0db7ff;
 }
 
-body {
-	background: black;
-}
-
-html {
-	background-color: black;
+::selection {
+	background: #0db7ff;
 }
 
 ::-webkit-scrollbar {
@@ -26,7 +27,6 @@ html {
 
 ::-webkit-scrollbar-track {
 	border-radius: 100px;
-	background: black;
 }
 
 ::-webkit-scrollbar-thumb {
