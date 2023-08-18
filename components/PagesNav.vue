@@ -19,7 +19,7 @@
 				},
 			]"
 		>
-			<nuxt-icon name="work" />
+			<nuxt-icon name="work" class="w-[14px]" />
 		</nuxt-link>
 		<nuxt-link
 			to="/about"
@@ -38,7 +38,7 @@
 				},
 			]"
 		>
-			<nuxt-icon name="about" />
+			<nuxt-icon name="about" class="w-[14px]"  />
 		</nuxt-link>
 		<nuxt-link
 			to="/projects"
@@ -57,7 +57,7 @@
 				},
 			]"
 		>
-			<nuxt-icon name="projects" />
+			<nuxt-icon name="projects" class="w-[14px]"  />
 		</nuxt-link>
 		<nuxt-link
 			to="/contact"
@@ -76,7 +76,7 @@
 				},
 			]"
 		>
-			<nuxt-icon name="contact" />
+			<nuxt-icon name="contact" class="w-[14px]"  />
 		</nuxt-link>
 	</div>
 </template>

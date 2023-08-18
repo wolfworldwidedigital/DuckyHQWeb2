@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-black text-white p-[64px] h-screen flex flex-col gap-[64px]">
+	<div class="bg-black text-white p-[64px] overflow-hidden h-screen min-h-screen flex flex-col gap-[64px]">
 		<nav
 			class="flex place-content-between h-fit w-full align-middle place-items-center"
 		>
@@ -11,8 +11,8 @@
 			/></nuxt-link>
 			<Status type="No" />
 		</nav>
-		<div class="flex gap-[64px] h-full w-full">
-			<div id="left" class="flex flex-col gap-[64px] w-full h-full">
+		<div class="min-h-0 w-full flex gap-[64px]">
+			<div id="left" class="w-full h-full flex flex-col gap-[64px]">
 				<div class="flex flex-col gap-[32px]">
 					<h1 class="font-hanson text-[100px] leading-[75px]">dukc</h1>
 					<p class="text-[20px]">UI designer, & front-end web developer.</p>
@@ -21,7 +21,7 @@
 			</div>
 			<div
 				id="right"
-				class="flex flex-col gap-[32px] w-fit h-full align-middle place-items-center"
+				class="w-fit h-full flex flex-col gap-[32px] align-middle place-items-center"
 			>
 				<div class="flex flex-col gap-[16px]">
 					<a href="#" class="hover:scale-95 active:scale-50 duration-200">
