@@ -7,5 +7,6 @@ export default defineNuxtConfig({
 		"@nuxt/image",
 		"nuxt-icons",
 		"@nuxt/content",
+		"floating-vue/nuxt"
 	],
 });

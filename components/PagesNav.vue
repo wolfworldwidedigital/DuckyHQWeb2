@@ -5,6 +5,7 @@
 		<nuxt-link to="/">
 			<nuxt-icon
 				name="work"
+				v-tooltip="'Work'"
 				:class="[
 					{
 						'selected hover:scale-95 active:scale-50 duration-200': work,
@@ -24,6 +25,7 @@
 		<nuxt-link to="/about">
 			<nuxt-icon
 				name="about"
+				v-tooltip="'About'"
 				:class="[
 					{
 						'text-white hover:scale-95 active:scale-50 duration-200': work,
@@ -43,6 +45,7 @@
 		<nuxt-link to="/projects">
 			<nuxt-icon
 				name="projects"
+				v-tooltip="'Projects'"
 				:class="[
 					{
 						'text-white hover:scale-95 active:scale-50 duration-200': work,
@@ -62,6 +65,7 @@
 		<nuxt-link to="/contact">
 			<nuxt-icon
 				name="contact"
+				v-tooltip="'Contact'"
 				:class="[
 					{
 						'text-white hover:scale-95 active:scale-50 duration-200': work,
