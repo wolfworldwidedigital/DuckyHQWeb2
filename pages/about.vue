@@ -117,8 +117,8 @@ function openModal() {
 	isOpen.value = true;
 }
 useSeoMeta({
-	title: "DuckyHQ : Work",
-	ogTitle: "DuckyHQ : Work",
+	title: "DuckyHQ : About",
+	ogTitle: "DuckyHQ : About",
 	description:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogDescription:
