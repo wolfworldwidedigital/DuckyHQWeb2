@@ -2,82 +2,94 @@
 	<div
 		class="w-fit h-full flex flex-col align-middle justify-center gap-[32px] p-[16px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
 	>
-		<nuxt-link to="/">
+		<nuxt-link to="/" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="work"
 				v-tooltip="'Work'"
 				:class="[
 					{
-						'selected hover:scale-95 active:scale-50 duration-200': work,
+						'selected': work,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': about,
+						'text-white': about,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': projects,
+						'text-white': projects,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': contact,
+						'text-white': contact,
+					},
+					{
+						'text-white': none,
 					},
 				]"
 			/>
 		</nuxt-link>
-		<nuxt-link to="/about">
+		<nuxt-link to="/about" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="about"
 				v-tooltip="'About'"
 				:class="[
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': work,
+						'text-white': work,
 					},
 					{
-						'selected hover:scale-95 active:scale-50 duration-200': about,
+						'selected': about,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': projects,
+						'text-white': projects,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': contact,
+						'text-white': contact,
+					},
+					{
+						'text-white': none,
 					},
 				]"
 			/>
 		</nuxt-link>
-		<nuxt-link to="/projects">
+		<nuxt-link to="/projects" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="projects"
 				v-tooltip="'Projects'"
 				:class="[
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': work,
+						'text-white': work,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': about,
+						'text-white': about,
 					},
 					{
-						'selected hover:scale-95 active:scale-50 duration-200': projects,
+						'selected': projects,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': contact,
+						'text-white': contact,
+					},
+					{
+						'text-white': none,
 					},
 				]"
 			/>
 		</nuxt-link>
-		<nuxt-link to="/contact">
+		<nuxt-link to="/contact" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="contact"
 				v-tooltip="'Contact'"
 				:class="[
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': work,
+						'text-white': work,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': about,
+						'text-white ': about,
 					},
 					{
-						'text-white hover:scale-95 active:scale-50 duration-200': projects,
+						'text-white': projects,
 					},
 					{
-						'selected hover:scale-95 active:scale-50 duration-200': contact,
+						'selected': contact,
+					},
+					{
+						'text-white': none,
 					},
 				]"
 			/>
@@ -107,6 +119,9 @@ export default {
 		contact() {
 			return this.selected === "contact";
 		},
-	},
+		none() {
+			return this.selected === "none";
+		},
+	}
 };
 </script>

@@ -9,7 +9,7 @@
 
 html {
 	background-color: black;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .selected {
