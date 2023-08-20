@@ -2,7 +2,7 @@
 	<div
 		class="w-fit h-full flex flex-col align-middle justify-center gap-[32px] p-[16px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
 	>
-		<nuxt-link to="/" class="hover:scale-95 active:scale-50 duration-200">
+		<NuxtLink to="/" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="work"
 				v-tooltip="'Work'"
@@ -24,8 +24,8 @@
 					},
 				]"
 			/>
-		</nuxt-link>
-		<nuxt-link to="/about" class="hover:scale-95 active:scale-50 duration-200">
+		</NuxtLink>
+		<NuxtLink to="/about" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="about"
 				v-tooltip="'About'"
@@ -47,8 +47,8 @@
 					},
 				]"
 			/>
-		</nuxt-link>
-		<nuxt-link to="/projects" class="hover:scale-95 active:scale-50 duration-200">
+		</NuxtLink>
+		<NuxtLink to="/projects" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="projects"
 				v-tooltip="'Projects'"
@@ -70,8 +70,8 @@
 					},
 				]"
 			/>
-		</nuxt-link>
-		<nuxt-link to="/contact" class="hover:scale-95 active:scale-50 duration-200">
+		</NuxtLink>
+		<NuxtLink to="/contact" class="hover:scale-95 active:scale-50 duration-200">
 			<nuxt-icon
 				name="contact"
 				v-tooltip="'Contact'"
@@ -93,7 +93,7 @@
 					},
 				]"
 			/>
-		</nuxt-link>
+		</NuxtLink>
 	</div>
 </template>
 

@@ -17,15 +17,15 @@
 					<p class="text-[18px]">Email: jacobdukc@gmail.com</p>
 				</div>
 			</div>
-			<nuxt-img src="/contact.png" class="w-[50%] object-cover h-screen" />
+			<nuxt-img src="/contact.png" class="w-[50%] min-[1800px]:min-w-[950px] object-cover h-screen" />
 		</div>
 	</div>
 </template>
 
 <script setup>
 useSeoMeta({
-	title: "DuckyHQ : Contact",
-	ogTitle: "DuckyHQ : Contact",
+	title: "Contact",
+	ogTitle: "Contact",
 	description:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogDescription:

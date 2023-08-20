@@ -9,15 +9,15 @@
 			>
 				<ContentDoc />
 			</article>
-            <div class="h-96"></div>
+            <div class="h-screen"></div>
 		</div>
 	</div>
 </template>
 
 <script setup>
 useSeoMeta({
-	title: "DuckyHQ : Work",
-	ogTitle: "DuckyHQ : Work",
+	title: "Post",
+	ogTitle: "Post",
 	description:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogDescription:
