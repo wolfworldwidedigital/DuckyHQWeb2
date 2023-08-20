@@ -13,6 +13,7 @@
 						creating innovative apps, websites, tools, & concept videos.
 					</p>
 				</div>
+				<div class="h-screen"></div>
 				<div class="flex place-content-between h-fit w-full">
 					<nuxt-link
 						to="/contact"
@@ -29,7 +30,10 @@
 					</button>
 				</div>
 			</div>
-			<nuxt-img src="/about.png" class="w-[50%] min-[1800px]:min-w-[950px] object-cover h-screen" />
+			<nuxt-img
+				src="/about.png"
+				class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen"
+			/>
 		</div>
 	</div>
 	<TransitionRoot appear :show="isOpen" as="template">
@@ -73,21 +77,81 @@
 							<div class="flex flex-col gap-[16px]">
 								<p class="text-[18px]">Tools & Software</p>
 								<div class="flex gap-[16px] h-[32px]">
-									<nuxt-img v-tooltip="'Figma'" width="32" height="32" src="/icons/skills/figma.png" />
-									<nuxt-img v-tooltip="'Affinity'" width="32" height="32" src="/icons/skills/designer.png" />
-									<nuxt-img v-tooltip="'After Effects'" width="32" height="32" src="/icons/skills/ae.png" />
-									<nuxt-img v-tooltip="'Visual Studio Code'" width="32" height="32" src="/icons/skills/vscode.png" />
-									<nuxt-img v-tooltip="'Git'" width="32" height="32" src="/icons/skills/git.png" />
-									<nuxt-img v-tooltip="'Jetbrains IDEs'" width="32" height="32" src="/icons/skills/jetbrains.png" />
+									<nuxt-img
+										v-tooltip="'Figma'"
+										width="32"
+										height="32"
+										src="/icons/skills/figma.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Affinity'"
+										width="32"
+										height="32"
+										src="/icons/skills/designer.png"
+									/>
+									<nuxt-img
+										v-tooltip="'After Effects'"
+										width="32"
+										height="32"
+										src="/icons/skills/ae.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Visual Studio Code'"
+										width="32"
+										height="32"
+										src="/icons/skills/vscode.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Git'"
+										width="32"
+										height="32"
+										src="/icons/skills/git.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Jetbrains IDEs'"
+										width="32"
+										height="32"
+										src="/icons/skills/jetbrains.png"
+									/>
 								</div>
 								<p class="text-[18px]">Languages & Frameworks</p>
 								<div class="flex gap-[16px] h-[32px]">
-									<nuxt-img v-tooltip="'Javascript'" width="32" height="32" src="/icons/skills/js.png" />
-									<nuxt-img v-tooltip="'Python'" width="32" height="32" src="/icons/skills/python.png" />
-									<nuxt-img v-tooltip="'Nuxt.js'" width="32" height="32" src="/icons/skills/nuxt.png" />
-									<nuxt-img v-tooltip="'Vue.js'" width="32" height="32" src="/icons/skills/vue.png" />
-									<nuxt-img v-tooltip="'Next.js'" width="32" height="32" src="/icons/skills/next.png" />
-									<nuxt-img v-tooltip="'React.js'" width="32" height="32" src="/icons/skills/react.png" />
+									<nuxt-img
+										v-tooltip="'Javascript'"
+										width="32"
+										height="32"
+										src="/icons/skills/js.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Python'"
+										width="32"
+										height="32"
+										src="/icons/skills/python.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Nuxt.js'"
+										width="32"
+										height="32"
+										src="/icons/skills/nuxt.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Vue.js'"
+										width="32"
+										height="32"
+										src="/icons/skills/vue.png"
+									/>
+									<nuxt-img
+										v-tooltip="'Next.js'"
+										width="32"
+										height="32"
+										src="/icons/skills/next.png"
+									/>
+									<nuxt-img
+										v-tooltip="'React.js'"
+										width="32"
+										height="32"
+										src="/icons/skills/react.png"
+									/>
 								</div>
 							</div>
 						</DialogPanel>

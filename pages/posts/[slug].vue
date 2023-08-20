@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-[32px] min-h-0">
+	<div class="flex gap-[32px] min-h-0 w-full">
 		<PagesNav selected="none" />
 		<div
 			class="w-full overflow-y-auto p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
@@ -9,7 +9,7 @@
 			>
 				<ContentDoc />
 			</article>
-            <div class="h-screen"></div>
+			<div class="h-screen"></div>
 		</div>
 	</div>
 </template>
@@ -24,5 +24,9 @@ useSeoMeta({
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogImage: "/logobg.png",
 	twitterCard: "summary_large_image",
+});
+
+definePageMeta({
+	layout: "post",
 });
 </script>

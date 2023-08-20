@@ -4,9 +4,9 @@
 		<div
 			class="w-full overflow-y-auto h-full flex flex-col gap-[64px] p-[64px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
 		>
-			<div class="h-fit w-full flex gap-[64px]">
+			<div class="h-fit w-full flex gap-[64px] max-[990px]:flex-col max-[995px]:gap-[32px]">
 				<h1 class="text-[30px] font-medium">HQLauncher</h1>
-				<div class="flex flex-col gap-[16px]">
+				<div class="flex flex-col gap-[16px] max-[995px]:gap-[32px]">
 					<p class="text-[18px]">
 						A functional Minecraft launcher with several features and beautiful
 						UI. <br />

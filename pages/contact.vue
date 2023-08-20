@@ -12,12 +12,13 @@
 						But if you need to contact me, do it via <b>Discord</b> or <b>Email</b>.
 					</p>
 				</div>
+				<div class="h-screen"></div>
 				<div class="flex flex-col gap-[16px]">
 					<p class="text-[18px]">Discord: dukkcc (dukc#1881)</p>
 					<p class="text-[18px]">Email: jacobdukc@gmail.com</p>
 				</div>
 			</div>
-			<nuxt-img src="/contact.png" class="w-[50%] min-[1800px]:min-w-[950px] object-cover h-screen" />
+			<nuxt-img src="/contact.png" class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen" />
 		</div>
 	</div>
 </template>
