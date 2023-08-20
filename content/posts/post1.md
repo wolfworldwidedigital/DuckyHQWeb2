@@ -2,6 +2,7 @@
 title: "Test Post 1"
 type: "Design"
 date: "Aug 18, 2023"
+img: "https://i.imgur.com/eqYgcpS.png"
 ---
 
 # a post!

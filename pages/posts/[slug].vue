@@ -1,9 +1,10 @@
 <template>
-	<div class="flex gap-[32px] min-h-0 w-full">
+	<div class="flex gap-[32px] min-h-0 w-full max-[800px]:flex-col">
 		<PagesNav selected="none" />
 		<div
-			class="w-full overflow-y-auto p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
+			class="w-full overflow-y-auto overflow-x-hidden p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
 		>
+			<nuxt-img />
 			<article
 				class="prose lg:prose-xl prose-h1:text-white prose-h2:text-white prose-h3:text-white prose-h4:text-white prose-h6:text-white prose-p:text-[#e1e1e1] prose-a:text-[#4abeff] hover:prose-a:text-[#a4deff] prose-code:text-[#b3b3b3] prose-li:text-[#e1e1e1] prose-ul:text-[#e1e1e1] prose-blockquote:text-[#e1e1e1]"
 			>

@@ -23,6 +23,7 @@ html {
 ::-webkit-scrollbar {
 	border-radius: 100px;
 	width: 7px;
+	height: 7px;
 }
 
 ::-webkit-scrollbar-track {
