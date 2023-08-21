@@ -32,6 +32,8 @@
 			</div>
 			<nuxt-img
 				src="/about.png"
+				preload
+				format="webp"
 				class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen"
 			/>
 		</div>
@@ -76,7 +78,7 @@
 							</DialogTitle>
 							<div class="flex flex-col gap-[16px]">
 								<p class="text-[18px]">Tools & Software</p>
-								<div class="flex gap-[16px] h-[32px]">
+								<div class="flex flex-wrap gap-[16px] h-fit">
 									<nuxt-img
 										v-tooltip="'Figma'"
 										width="32"
@@ -115,7 +117,7 @@
 									/>
 								</div>
 								<p class="text-[18px]">Languages & Frameworks</p>
-								<div class="flex gap-[16px] h-[32px]">
+								<div class="flex flex-wrap gap-[16px] h-fit">
 									<nuxt-img
 										v-tooltip="'Javascript'"
 										width="32"

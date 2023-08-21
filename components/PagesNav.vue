@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-fit h-full flex min-[800px]:flex-col align-middle justify-center gap-[32px] p-[16px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px] max-[800px]:h-fit max-[800px]:w-full"
+		class="w-fit h-full flex text-[17px] max-[950px]:text-[20px] min-[800px]:flex-col align-middle justify-center gap-[32px] p-[16px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px] max-[800px]:h-fit max-[800px]:w-full"
 	>
 		<NuxtLink to="/">
 			<nuxt-icon
