@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-auto flex flex-col gap-[64px] z-10 max-[800px]:h-fit"
+		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-auto flex flex-col gap-[64px] z-10 max-[800px]:h-full"
 	>
 		<nav
 			class="flex place-content-between h-fit w-full align-middle place-items-center"
