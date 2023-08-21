@@ -1,8 +1,8 @@
 <template>
-	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:h-fit max-[800px]:min-h-max">
+	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:h-fit max-[800px]:min-h-[500px]">
 		<PagesNav selected="about" />
 		<div
-			class="w-full overflow-hidden h-full flex bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
+			class="w-full overflow-hidden h-full flex bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px] max-[800px]:overflow-y-auto"
 		>
 			<div class="flex flex-col place-content-between max-[800px]:place-content-start gap-[64px] p-[64px] max-[800px]:p-[32px] h-full w-full">
 				<div class="flex flex-col gap-[32px] h-fit w-full">
@@ -83,36 +83,42 @@
 										v-tooltip="'Figma'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/figma.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Affinity'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/designer.png"
 									/>
 									<nuxt-img
 										v-tooltip="'After Effects'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/ae.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Visual Studio Code'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/vscode.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Git'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/git.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Jetbrains IDEs'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/jetbrains.png"
 									/>
 								</div>
@@ -122,36 +128,42 @@
 										v-tooltip="'Javascript'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/js.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Python'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/python.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Nuxt.js'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/nuxt.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Vue.js'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/vue.png"
 									/>
 									<nuxt-img
 										v-tooltip="'Next.js'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/next.png"
 									/>
 									<nuxt-img
 										v-tooltip="'React.js'"
 										width="32"
 										height="32"
+										preload
 										src="/icons/skills/react.png"
 									/>
 								</div>

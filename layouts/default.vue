@@ -6,7 +6,7 @@ export default {
 		gsap.fromTo(
 			this.$refs.header,
 			{autoAlpha: 0, y: -100},
-			{autoAlpha: 1, y: 0, duration: 1, ease: "power4.inOut"}
+			{autoAlpha: 1, y: 0, duration: 1, ease: "power3.inOut"}
 		);
 	},
 };
@@ -14,7 +14,7 @@ export default {
 
 <template>
 	<div
-		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-y-auto overflow-x-hidden flex flex-col gap-[64px] z-10 max-[800px]:h-full"
+		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-y-auto overflow-x-hidden flex flex-col gap-[64px] z-10 max-[800px]:overflow-y-scroll"
 	>
 		<nav
 			class="flex place-content-between h-fit w-full align-middle place-items-center"
