@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col">
+	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:h-fit max-[800px]:min-h-max">
 		<PagesNav selected="contact" />
 		<div
 			class="w-full overflow-hidden h-full flex bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
@@ -11,7 +11,7 @@
 						I am not available to work right now.
 					</p>
 				</div>
-				<div class="h-screen"></div>
+				<div class="h-screen max-[800px]:hidden"></div>
 				<div class="flex flex-col gap-[16px] hidden">
 					<p class="text-[18px]">Discord: dukkcc (dukc#1881)</p>
 					<p class="text-[18px]">Email: jacobdukc@gmail.com</p>

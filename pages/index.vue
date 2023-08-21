@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col">
+	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:h-fit max-[800px]:min-h-max">
 		<PagesNav selected="work" />
 		<div
 			class="w-full overflow-y-auto flex flex-col h-full p-[32px] bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
@@ -28,7 +28,7 @@
 					</NuxtLink>
 				</ContentList>
 			</div>
-			<div class="h-screen"></div>
+			<div class="h-screen max-[800px]:hidden"></div>
 		</div>
 	</div>
 </template>

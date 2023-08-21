@@ -1,10 +1,10 @@
 <template>
-	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col">
+	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:h-fit max-[800px]:min-h-max">
 		<PagesNav selected="about" />
 		<div
 			class="w-full overflow-hidden h-full flex bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px]"
 		>
-			<div class="flex flex-col place-content-between p-[64px] max-[800px]:p-[32px] h-full w-full">
+			<div class="flex flex-col place-content-between max-[800px]:place-content-start gap-[64px] p-[64px] max-[800px]:p-[32px] h-full w-full">
 				<div class="flex flex-col gap-[32px] h-fit w-full">
 					<h1 class="text-[40px] font-medium">About</h1>
 					<p class="text-[18px] leading-[225%]">
@@ -13,7 +13,7 @@
 						creating innovative apps, websites, tools, & concept videos.
 					</p>
 				</div>
-				<div class="h-screen"></div>
+				<div class="h-screen max-[800px]:hidden"></div>
 				<div class="flex place-content-between h-fit w-full">
 					<nuxt-link
 						to="/contact"
