@@ -4,6 +4,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ["Outfit"],
+				default: ["Outfit"],
 				hanson: ["Hanson"],
 			},
 			colors: {
@@ -26,7 +27,6 @@ module.exports = {
 		},
 	},
 	plugins: [
-		require("@tailwindcss/typography"),
-		// ...
+		require("@tailwindcss/typography")
 	],
 };
