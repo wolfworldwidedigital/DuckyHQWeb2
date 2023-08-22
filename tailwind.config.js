@@ -3,8 +3,6 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["Outfit"],
-				default: ["Outfit"],
 				hanson: ["Hanson"],
 			},
 			colors: {
