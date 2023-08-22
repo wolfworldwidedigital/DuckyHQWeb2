@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-y-auto overflow-x-hidden flex flex-col gap-[64px] z-10 max-[800px]:overflow-y-scroll"
+		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-y-hidden overflow-x-hidden flex flex-col gap-[64px] z-10 max-[800px]:overflow-y-scroll"
 	>
 		<nav
 			class="flex place-content-between h-fit w-full align-middle place-items-center"
@@ -60,8 +60,5 @@
 	></div>
 	<div
 		class="relative bottom-[90vh] left-[80vw] opacity-50 h-[40rem] w-[35rem] bg-gradient-to-tr animate-spin-slow from-brand-purple to-brand-purple blur-[128px] rounded-full -z-10"
-	></div>
-	<div
-		class="relative bottom-[50vh] left-[50vw] opacity-70 h-[30rem] w-[15rem] bg-gradient-to-tr animate-spin-slow from-brand-blue-2 to-brand-blue-1 blur-[128px] rounded-full -z-10"
 	></div>
 </template>
