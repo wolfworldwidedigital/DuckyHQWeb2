@@ -42,7 +42,7 @@ export default {
 			</div>
 			<div
 				id="right"
-				class="w-fit h-full max-[800px]:h-fit max-[800px]:w-full flex flex-col gap-[32px] align-middle place-items-center"
+				class="w-fit h-full max-[800px]:h-fit max-[800px]:hidden max-[800px]:w-full flex flex-col gap-[32px] align-middle place-items-center"
 			>
 				<div class="flex min-[800px]:flex-col gap-[16px]">
 					<NuxtLink

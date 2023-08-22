@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:h-full"
+		class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:min-h-[450px]"
 	>
 		<PagesNav selected="contact" />
 		<div
