@@ -46,6 +46,13 @@ export default {
 			>
 				<div class="flex min-[800px]:flex-col gap-[16px]">
 					<NuxtLink
+						to="https://bento.me/dukc"
+                        target="_blank"
+						class="hover:scale-95 active:scale-50 duration-200"
+					>
+						<nuxt-img width="36" src="/icons/bento2.png" />
+					</NuxtLink>
+					<NuxtLink
 						to="https://www.youtube.com/@dukkcc"
                         target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
