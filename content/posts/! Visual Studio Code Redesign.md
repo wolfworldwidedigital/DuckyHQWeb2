@@ -26,7 +26,7 @@ I am not affiliated with Microsoft.
 ## Design
 
 Code editor page, with file explorer on the sidebar.
-![](https://i.imgur.com/VN0RNxV.png)
+![](https://i.imgur.com/Gg9TT0R.png)
 
 Optional status bar, if you don't like the new status widget.
 ![](https://i.imgur.com/VN0RNxV.png)
