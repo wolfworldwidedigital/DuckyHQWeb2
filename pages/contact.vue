@@ -23,8 +23,9 @@
 			</div>
 			<nuxt-img
 				src="/contact.png"
-				preload
 				format="webp"
+				fit="contain"
+				loading="lazy"
 				class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen"
 			/>
 		</div>
@@ -39,7 +40,7 @@ useSeoMeta({
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogDescription:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
-	ogImage: "/logobg.png",
+	ogImage: "/seoCover.png",
 	twitterCard: "summary_large_image",
 });
 </script>

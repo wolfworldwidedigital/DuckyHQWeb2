@@ -6,7 +6,7 @@ export default {
 		gsap.fromTo(
 			this.$refs.header,
 			{autoAlpha: 0, y: -100},
-			{autoAlpha: 1, y: 0, duration: 1, ease: "power3.inOut"}
+			{autoAlpha: 1, y: 0, duration: 0.87, ease: "power4.inOut"}
 		);
 	},
 };
@@ -50,35 +50,35 @@ export default {
                         target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/bento2.png" />
+						<nuxt-img width="36" src="/icons/bento.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://www.youtube.com/@dukkcc"
                         target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/yt.png" />
+						<nuxt-img width="36" src="/icons/yt.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://www.behance.net/duckyhq"
                         target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/behance.png" />
+						<nuxt-img width="36" src="/icons/behance.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://discord.gg/kVS5dEekmT"
                         target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/discord.png" />
+						<nuxt-img width="36" src="/icons/discord.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://github.com/dukcc"
                         target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/github.png" />
+						<nuxt-img width="36" src="/icons/github.svg" />
 					</NuxtLink>
 				</div>
 				<div class="w-[1px] h-full border max-[800px]:hidden border-white/10"></div>

@@ -32,8 +32,9 @@
 			</div>
 			<nuxt-img
 				src="/about.png"
-				preload
 				format="webp"
+				fit="contain"
+				loading="lazy"
 				class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen"
 			/>
 		</div>
@@ -84,42 +85,42 @@
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/figma.png"
+										src="/icons/skills/figma.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Affinity'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/designer.png"
+										src="/icons/skills/designer.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'After Effects'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/ae.png"
+										src="/icons/skills/ae.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Visual Studio Code'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/vscode.png"
+										src="/icons/skills/vscode.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Git'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/git.png"
+										src="/icons/skills/git.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Jetbrains IDEs'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/jetbrains.png"
+										src="/icons/skills/jetbrains.svg"
 									/>
 								</div>
 								<p class="text-[18px]">Languages & Frameworks</p>
@@ -129,42 +130,28 @@
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/js.png"
+										src="/icons/skills/js.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Python'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/python.png"
+										src="/icons/skills/python.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Nuxt.js'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/nuxt.png"
+										src="/icons/skills/nuxt.svg"
 									/>
 									<nuxt-img
 										v-tooltip="'Vue.js'"
 										width="32"
 										height="32"
 										preload
-										src="/icons/skills/vue.png"
-									/>
-									<nuxt-img
-										v-tooltip="'Next.js'"
-										width="32"
-										height="32"
-										preload
-										src="/icons/skills/next.png"
-									/>
-									<nuxt-img
-										v-tooltip="'React.js'"
-										width="32"
-										height="32"
-										preload
-										src="/icons/skills/react.png"
+										src="/icons/skills/vue.svg"
 									/>
 								</div>
 							</div>
@@ -201,7 +188,7 @@ useSeoMeta({
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogDescription:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
-	ogImage: "/logobg.png",
+	ogImage: "/seoCover.png",
 	twitterCard: "summary_large_image",
 });
 </script>

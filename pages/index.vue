@@ -35,13 +35,13 @@
 
 <script setup>
 useSeoMeta({
-	title: "Work",
-	ogTitle: "Work",
+	title: "Home",
+	ogTitle: "Home",
 	description:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
 	ogDescription:
 		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
-	ogImage: "/logobg.png",
+	ogImage: "/seoCover.png",
 	twitterCard: "summary_large_image",
 });
 </script>
