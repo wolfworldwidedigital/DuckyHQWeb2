@@ -14,7 +14,7 @@ export default {
 
 <template>
 	<div
-		class="bg-transparent text-white p-[64px] max-[800px]:px-[32px] h-screen min-h-screen overflow-y-hidden overflow-x-hidden flex flex-col gap-[64px] z-10 max-[800px]:overflow-y-scroll"
+		class="bg-transparent text-white p-[64px] max-[800px]:px-[24px] max-[800px]:pt-[48px] max-[800px]:pb-[24px] h-screen min-h-screen overflow-y-hidden overflow-x-hidden flex flex-col gap-[64px] z-10 max-[800px]:overflow-y-auto"
 	>
 		<nav
 			class="flex place-content-between h-fit w-full align-middle place-items-center"
@@ -25,10 +25,10 @@ export default {
 					src="/logo.svg"
 					width="24"
 			/></nuxt-link>
-			<Status type="No" />
+			<Status />
 		</nav>
 		<div class="min-h-0 w-full flex max-[800px]:flex-col gap-[64px]">
-			<div id="left" class="w-full h-full flex flex-col gap-[64px]">
+			<div id="left" class="w-full h-full flex flex-col gap-[32px] max-[800px]:gap-[24px]">
 				<div class="flex flex-col gap-[32px]">
 					<h1
 						class="font-hanson text-[100px] max-[800px]:text-[75px] leading-[50%] opacity-0"
@@ -36,7 +36,8 @@ export default {
 					>
 						dukc
 					</h1>
-					<p class="text-[20px]">UI designer, & front-end web developer.</p>
+					<p class="text-[20px] max-[460px]:hidden">UI designer, & front-end web developer.</p>
+					<div class="flex gap-[32px]"></div>
 				</div>
 				<slot />
 			</div>

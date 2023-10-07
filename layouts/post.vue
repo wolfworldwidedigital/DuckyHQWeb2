@@ -11,7 +11,7 @@
 					src="/logo.svg"
 					width="24"
 			/></nuxt-link>
-			<Status type="No" />
+			<Status />
 		</nav>
 		<div class="min-h-0 w-full flex max-[800px]:flex-col gap-[64px]">
 			<slot />
