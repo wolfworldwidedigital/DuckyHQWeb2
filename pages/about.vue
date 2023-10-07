@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col">
+	<div class="flex gap-[32px] min-h-0 max-[800px]:flex-col max-[800px]:min-h-[500px]">
 		<PagesNav selected="about" />
 		<div
 			class="w-full overflow-hidden h-full flex bg-[#0f0f0f]/60 border border-white/10 backdrop-blur-[100px] rounded-[10px] max-[800px]:overflow-y-auto"
