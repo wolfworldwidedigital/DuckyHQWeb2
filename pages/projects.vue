@@ -14,7 +14,7 @@
 					</p>
 					<div class="flex gap-[32px]">
 						<NuxtLink
-							to="/posts/hqlauncher"
+							to="/posts/2-hqlauncher"
 							class="flex gap-[8px] place-items-center hover:scale-95 active:scale-50 duration-200 cursor-pointer"
 						>
 							<p class="text-[13px]">Learn More</p>
