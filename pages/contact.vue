@@ -53,6 +53,7 @@
 				format="webp"
 				fit="contain"
 				loading="lazy"
+				alt="Contact image"
 				class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen"
 			/>
 		</div>

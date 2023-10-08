@@ -25,24 +25,28 @@
 								v-tooltip="'Figma'"
 								width="32"
 								height="32"
+								alt="Figma"
 								src="/icons/skills/figma.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'Affinity'"
 								width="32"
 								height="32"
+								alt="Affinity"
 								src="/icons/skills/designer.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'After Effects'"
 								width="32"
 								height="32"
+								alt="After Effects"
 								src="/icons/skills/ae.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'Visual Studio Code'"
 								width="32"
 								height="32"
+								alt="Visual Studio Code"
 								src="/icons/skills/vscode.svg"
 							/>
 							<nuxt-img
@@ -50,12 +54,14 @@
 								width="32"
 								height="32"
 								preload
+								alt="Git"
 								src="/icons/skills/git.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'Jetbrains IDEs'"
 								width="32"
 								height="32"
+								alt="Jetbrains"
 								src="/icons/skills/jetbrains.svg"
 							/>
 						</div>
@@ -65,25 +71,28 @@
 								v-tooltip="'Javascript'"
 								width="32"
 								height="32"
-								preload
+								alt="Javascript"
 								src="/icons/skills/js.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'Python'"
 								width="32"
 								height="32"
+								alt="Python"
 								src="/icons/skills/python.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'Nuxt.js'"
 								width="32"
 								height="32"
+								alt="Nuxt"
 								src="/icons/skills/nuxt.svg"
 							/>
 							<nuxt-img
 								v-tooltip="'Vue.js'"
 								width="32"
 								height="32"
+								alt="Vue"
 								src="/icons/skills/vue.svg"
 							/>
 						</div>
@@ -121,6 +130,7 @@
 				format="webp"
 				fit="contain"
 				loading="lazy"
+				alt="About image"
 				class="w-[50%] min-[1800px]:min-w-[950px] max-[1300px]:hidden object-cover h-screen"
 			/>
 		</div>

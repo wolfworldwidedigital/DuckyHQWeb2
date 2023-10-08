@@ -28,7 +28,10 @@ export default {
 			<Status />
 		</nav>
 		<div class="min-h-0 w-full flex max-[800px]:flex-col gap-[64px]">
-			<div id="left" class="w-full h-full flex flex-col gap-[32px] max-[800px]:gap-[24px]">
+			<div
+				id="left"
+				class="w-full h-full flex flex-col gap-[32px] max-[800px]:gap-[24px]"
+			>
 				<div class="flex flex-col gap-[32px]">
 					<h1
 						class="font-hanson text-[100px] max-[800px]:text-[75px] leading-[50%] opacity-0"
@@ -36,7 +39,9 @@ export default {
 					>
 						dukc
 					</h1>
-					<p class="text-[20px] max-[460px]:hidden">UI designer, & front-end web developer.</p>
+					<p class="text-[20px] max-[460px]:hidden">
+						UI designer, & front-end web developer.
+					</p>
 					<div class="flex gap-[32px]"></div>
 				</div>
 				<slot />
@@ -48,41 +53,43 @@ export default {
 				<div class="flex min-[800px]:flex-col gap-[16px]">
 					<NuxtLink
 						to="https://bento.me/dukc"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/bento.svg" />
+						<nuxt-img width="36" alt="Bento" src="/icons/bento.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://www.youtube.com/@dukkcc"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/yt.svg" />
+						<nuxt-img width="36" alt="YouTube" src="/icons/yt.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://www.behance.net/duckyhq"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/behance.svg" />
+						<nuxt-img width="36" alt="Behance" src="/icons/behance.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://discord.gg/kVS5dEekmT"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/discord.svg" />
+						<nuxt-img width="36" alt="Discord" src="/icons/discord.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://github.com/dukcc"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/github.svg" />
+						<nuxt-img width="36" alt="GitHub" src="/icons/github.svg" />
 					</NuxtLink>
 				</div>
-				<div class="w-[1px] h-full border max-[800px]:hidden border-white/10"></div>
+				<div
+					class="w-[1px] h-full border max-[800px]:hidden border-white/10"
+				></div>
 			</div>
 		</div>
 	</div>

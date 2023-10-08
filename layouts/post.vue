@@ -22,38 +22,38 @@
 				<div class="flex min-[800px]:flex-col gap-[16px]">
 					<NuxtLink
 						to="https://bento.me/dukc"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/bento.svg" />
+						<nuxt-img width="36" alt="Bento" src="/icons/bento.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://www.youtube.com/@dukkcc"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/yt.svg" />
+						<nuxt-img width="36" alt="YouTube" src="/icons/yt.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://www.behance.net/duckyhq"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/behance.svg" />
+						<nuxt-img width="36" alt="Behance" src="/icons/behance.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://discord.gg/kVS5dEekmT"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/discord.svg" />
+						<nuxt-img width="36" alt="Discord" src="/icons/discord.svg" />
 					</NuxtLink>
 					<NuxtLink
 						to="https://github.com/dukcc"
-                        target="_blank"
+						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
-						<nuxt-img width="36" src="/icons/github.svg" />
+						<nuxt-img width="36" alt="GitHub" src="/icons/github.svg" />
 					</NuxtLink>
 				</div>
 				<div
