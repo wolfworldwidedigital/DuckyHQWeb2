@@ -42,7 +42,7 @@
 							name="message"
 							placeholder="Message"
 							required=""
-							class="bg-[#0f0f0f]/60 border-2 w-full h-32 border-white/10 rounded-[10px] py-2 px-3 placeholder-white/25"
+							class="bg-[#0f0f0f]/60 border-2 w-full h-32 border-white/10 rounded-[10px] py-2 px-3 placeholder-white/25 min-h-[48px]"
 						></textarea>
 						<button class="bg-brand-blue-1/75 rounded-[10px] border-2 border-white/10 px-[16px] py-[8px] h-fit w-full hover:bg-brand-blue-1 hover:-translate-y-1 active:bg-brand-blue-1/50 active:translate-y-2 duration-200 cursor-pointer backdrop-blur-lg" type="submit">Send</button>
 					</form>
