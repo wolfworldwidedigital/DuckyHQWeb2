@@ -1,7 +1,7 @@
-![Website](https://i.imgur.com/lMUNZ90.png)
+![Website](https://wolfworldwide.net/img/wolfworldwide.webp)
 
 # Personal Website
 
 Unique design, built with Nuxt & Tailwind.
 
-[Visit Website](https://www.duckyhq.com)
+[Visit Website](https://wolfworldwide.digital)
