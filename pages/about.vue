@@ -10,10 +10,12 @@
 				<div class="flex flex-col gap-[32px] h-fit w-full">
 					<h1 class="text-[40px] font-medium">About</h1>
 					<p class="text-[18px] leading-[225%]">
-						I'm a versatile designer skilled in UI design, graphic design,
-						motion design, 3D design, & front-end web development. And I'm
-						focusing on creating innovative apps, websites, tools, & concept
-						videos.
+					No exaggerated presentations or impossibly fussy scenarios, but data-based, actionable strategies with a clear roadmap to achieve results.
+					Make your project stand out with Wolf Worldwide!
+					Do you have a business project that requires efficient and expert management? Look no further than Wolf Worldwide! Our experienced team will handle all aspects of your business projects, from creating a website to handling your social media strategies and developing video production. We offer full-service management for any project and guarantee quick yet professional results.
+					Save time, money, and effort with our online project management service. Increase the success rate of your projects by leaving it in the hands of experts! With Wolf Worldwide, you’ll get personalized attention, reliable advice and an unbeatable performance.
+					
+					Start taking advantage of our Digital Project Management services now — maximize the efficiency and success rate of your projects with Wolf Worldwide!
 					</p>
 				</div>
 				<div class="flex flex-col gap-[32px] h-fit w-full">
@@ -100,21 +102,15 @@
 				</div>
 				<div class="flex flex-col gap-[32px] h-fit w-full">
 					<h1 class="text-[40px] font-medium">Experience</h1>
-					<h3 class="text-[28px] font-medium">Bananacraft</h3>
+					<h3 class="text-[28px] font-medium">Pijntherapie</h3>
 					<p class="text-[18px] leading-[225%]">
-						I am a developer at the Minecraft network Bananacraft. I help out
-						with plugin configuration, building, and web design.
+						I am the project manager and developer of pijntherapie.com. A platform in the Netherlands that helps people with chronic pain and locating triggerpoints.
+						<a href="https://pijntherapie.com" class="underline" target="_blank">Visit the website</a>
 					</p>
-					<h3 class="text-[28px] font-medium">Extronode & Seanodes</h3>
+					<h3 class="text-[28px] font-medium">Treated</h3>
 					<p class="text-[18px] leading-[225%]">
-						Extronode/Seanodes <b>were</b> Minecraft server hosting networks. I
-						was an admin there, and helped out with the MC server network, web &
-						brand design, advertising, and community managment.
-					</p>
-					<h3 class="text-[28px] font-medium">TVS</h3>
-					<p class="text-[18px] leading-[225%]">
-						Designed, coded, and deployed website for TVS.
-						<a href="https://www.trashvomitstudios.com" class="underline" target="_blank">Visit the website</a>
+						I worked for Treated as a customer service representative and developer. I helped with the development of the website and the customer service.
+						<a href="https://nl.treated.com" class="underline" target="_blank">Visit the website</a>
 					</p>
 				</div>
 				<nuxt-link
