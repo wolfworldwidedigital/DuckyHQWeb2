@@ -12,20 +12,12 @@
                 <div class="flex flex-col gap-[32px] h-fit w-full">
                     <h1 class="text-[40px] font-medium">Contact</h1>
                     <p class="text-[18px] leading-[225%]">
-                        Want to work with me? Send me a message via Discord or
-                        Email.
-                    </p>
-                    <h3 class="text-[28px] font-medium">Discord</h3>
-                    <p
-                        class="text-[18px] w-fit"
-                        v-tooltip="'Former tag: dukc#1881'"
-                    >
-                        Discord username: <u>dukkcc</u>
-                    </p>
-                    <h3 class="text-[28px] font-medium">Email</h3>
+                        Convinced? Send me a message or email and we'll get started with your project right away!
+                    </p>    
+                    <h3 class="text-[28px] font-medium">Email me at admin@wolfworldwide.digital</h3>
                     <form
                         class="flex flex-col gap-[16px]"
-                        action="https://submit-form.com/MJTUBgv7"
+                        action="https://submit-form.com/kEgJohOLc"
                     >
                         <label for="name" class="text-[18px]">Name</label>
                         <input
