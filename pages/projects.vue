@@ -14,7 +14,7 @@
 					</p>
 					<div class="flex gap-[32px]">
 						<NuxtLink
-							to="/posts/2-hqlauncher"
+							to="/posts/2-treated"
 							class="flex gap-[8px] place-items-center hover:scale-95 active:scale-50 duration-200 cursor-pointer"
 						>
 							<p class="text-[13px]">Learn More</p>
@@ -40,9 +40,9 @@ useSeoMeta({
 	title: "Projects",
 	ogTitle: "Projects",
 	description:
-		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
+		"David is what they call me around these parts. Check out my online price estimator and let's get to work!",
 	ogDescription:
-		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
+		"David is what they call me around these parts. Check out my online price estimator and let's get to work!",
 	ogImage: "/seoCover.png",
 	twitterCard: "summary_large_image",
 });

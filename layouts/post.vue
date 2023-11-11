@@ -5,7 +5,7 @@
 		<nav
 			class="flex place-content-between h-fit w-full align-middle place-items-center"
 		>
-			<nuxt-link to="/"
+			<nuxt-link to="https://wolfworldwide.digital"
 				><nuxt-img
 					class="hover:scale-95 active:scale-50 duration-200"
 					src="/logo.svg"
@@ -21,35 +21,35 @@
 			>
 				<div class="flex min-[800px]:flex-col gap-[16px]">
 					<NuxtLink
-						to="https://bento.me/dukc"
+					to="https://www.facebook.com/daviddewolf88"
 						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
 						<nuxt-img width="36" alt="Bento" src="/icons/bento.svg" />
 					</NuxtLink>
 					<NuxtLink
-						to="https://www.youtube.com/@dukkcc"
+						to="https://www.youtube.com/@wolfworldwide.digital"
 						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
 						<nuxt-img width="36" alt="YouTube" src="/icons/yt.svg" />
 					</NuxtLink>
 					<NuxtLink
-						to="https://www.behance.net/duckyhq"
+						to=""
 						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
 						<nuxt-img width="36" alt="Behance" src="/icons/behance.svg" />
 					</NuxtLink>
 					<NuxtLink
-						to="https://discord.gg/kVS5dEekmT"
+						to=""
 						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>
 						<nuxt-img width="36" alt="Discord" src="/icons/discord.svg" />
 					</NuxtLink>
 					<NuxtLink
-						to="https://github.com/dukcc"
+						to="https://github.com/wolfworldwidedigital"
 						target="_blank"
 						class="hover:scale-95 active:scale-50 duration-200"
 					>

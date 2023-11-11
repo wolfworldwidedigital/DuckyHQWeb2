@@ -38,9 +38,9 @@ useSeoMeta({
 	title: "Home",
 	ogTitle: "Home",
 	description:
-		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
+		"David is what they call me around these parts. Check out my online price estimator and let's get to work!",
 	ogDescription:
-		"I'm dukc. And I'm a versatile designer skilled in UI, graphic, & motion design",
+		"David is what they call me around these parts. Check out my online price estimator and let's get to work!",
 	ogImage: "/seoCover.png",
 	twitterCard: "summary_large_image",
 });
